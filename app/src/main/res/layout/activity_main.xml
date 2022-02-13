@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/fondo1"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/ingles9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/nine"
+        android:contentDescription="@string/_9"
+        android:onClick="ingles9"
+        android:text="@string/_9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ingles5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="ImageContrastCheck"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/ingles1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_margin="15dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/one"
+        android:contentDescription="@string/_1"
+        android:onClick="ingles1"
+        android:text="@string/_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        tools:ignore="ImageContrastCheck">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/ingles2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_margin="15dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/two"
+        android:contentDescription="@string/_10"
+        android:onClick="ingles2"
+        android:text="@string/_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/ingles3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/tree"
+        android:contentDescription="@string/_3"
+        android:onClick="ingles3"
+        android:text="@string/_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ImageContrastCheck">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/ingles5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/five"
+        android:contentDescription="@string/_5"
+        android:onClick="ingles5"
+        android:text="@string/_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256"
+        tools:ignore="ImageContrastCheck">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/ingles7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/seven"
+        android:contentDescription="@string/_6"
+        android:onClick="ingles7"
+        android:text="@string/_7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ingles8"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/ingles8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/eight"
+        android:contentDescription="@string/_8"
+        android:onClick="ingles8"
+        android:text="@string/_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/ingles6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/six"
+        android:contentDescription="@string/_6"
+        android:onClick="ingles6"
+        android:text="@string/_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256"
+        tools:ignore="ImageContrastCheck">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/ingles4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/four"
+        android:contentDescription="@string/_4"
+        android:onClick="ingles4"
+        android:text="@string/_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256"
+        tools:ignore="ImageContrastCheck">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/ingles10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/ten"
+        android:contentDescription="@string/_10"
+        android:onClick="ingles10"
+        android:text="@string/_10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingles8"
+        app:layout_constraintVertical_bias="0.372"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btnEspanol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="67dp"
+        android:background="@drawable/espanol"
+        android:contentDescription="@string/app_name"
+        android:text="@string/espa_ol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingles10"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
